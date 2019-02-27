@@ -1,8 +1,11 @@
 {
   "name": "trio",
   "version": "1.0.0",
-  "main": "index.js",
+  "miniprogram": "lib",
   "repository": "ssh://git@flian.iask.in:10099/f2e/trio.git",
   "author": "Peng Miao <mios@yeah.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "lib"
+  ]
 }
