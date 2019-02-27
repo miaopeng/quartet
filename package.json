@@ -1,8 +1,8 @@
 {
-  "name": "trio",
-  "version": "1.0.0",
+  "name": "quartet",
+  "version": "1.0.3",
   "miniprogram": "lib",
-  "repository": "ssh://git@flian.iask.in:10099/f2e/trio.git",
+  "repository": "ssh://git@flian.iask.in:10099/f2e/quartet.git",
   "author": "Peng Miao <mios@yeah.net>",
   "license": "MIT",
   "files": [
