@@ -1,0 +1,13 @@
+# logs
+*.log
+
+# npm
+node_modules
+
+# miniprogram
+miniprogram_npm
+
+# editor
+.vscode
+
+# others
