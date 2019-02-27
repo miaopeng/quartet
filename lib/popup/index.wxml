@@ -1,4 +1,4 @@
-<wxs src="../../wxs/bem.wxs" module="bem" />
+<wxs src="../wxs/bem.wxs" module="bem" />
 
 <overlay
   wx:if="{{ inited && overlay }}"
