@@ -1,0 +1,12 @@
+.popup-bd {
+  width: 80vw;
+  height: 50vh;
+  background-color: #fff;
+  padding: 16rpx;
+}
+.popup-close {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: -50rpx;
+}

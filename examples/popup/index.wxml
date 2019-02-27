@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="title">popup</view>
+  <button bindtap="showModal">open popup</button>
+  <popup
+    show="{{ modalVisible }}"
+    custom-class="modal-block"
+    bind:close="hideModal"
+    customStyle="overflow-y: visible"
+  >
+    <icon
+      size="20"
+      bindtap="hideModal"
+      type="close"
+      class="popup-close"
+    />
+    <view class="popup-bd">This is a popup</view>
+  </popup>
+</view>

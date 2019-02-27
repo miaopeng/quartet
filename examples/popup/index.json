@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "popup": "/miniprogram_npm/quartet/popup/index",
+    "icon": "/miniprogram_npm/quartet/icon/index"
+  }
+}

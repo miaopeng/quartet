@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tabs": "/miniprogram_npm/quartet/tabs/index",
+    "tab": "/miniprogram_npm/quartet/tab/index"
+  }
+}

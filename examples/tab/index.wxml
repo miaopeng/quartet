@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="title">tab</view>
+
+  <tabs id="tabs" current="{{ currentTab }}" bindchange="handleChangeTab">
+    <tab key="tab-tracing" title="溯源信息"></tab>
+    <tab key="tab-intro" title="产品介绍"></tab>
+    <tab key="tab-spec" title="规格参数"></tab>
+  </tabs>
+  <view class="tab-content">
+    <block wx:if="{{currentTab === 'tab-tracing'}}">
+      <view>这是溯源信息的内容</view>
+    </block>
+    <block wx:if="{{currentTab === 'tab-intro'}}">
+      <view>这是产品介绍的内容</view>
+    </block>
+    <block wx:if="{{currentTab === 'tab-spec'}}">
+      <view>这是规格参数的内容</view>
+    </block>
+  </view>
+</view>

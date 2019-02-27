@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "index/index",
+    "tab/index",
+    "popup/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Quartet",
+    "navigationBarTextStyle":"black"
+  }
+}

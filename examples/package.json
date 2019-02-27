@@ -1,0 +1,9 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "quartet": "ssh://git@flian.iask.in:10099/f2e/quartet.git"
+  }
+}

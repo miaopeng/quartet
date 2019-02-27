@@ -1,0 +1,10 @@
+.title {
+  margin: 30px;
+  text-align: center;
+}
+
+.nav navigator {
+  padding: 24rpx;
+  margin-bottom: 16rpx;
+  background-color: #eee;
+}

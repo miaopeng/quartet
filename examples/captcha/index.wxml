@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="title">获取验证码按钮</view>
+
+  <view class="captcha-wrapper">
+    <input name="sms_code" type="number"
+      class="input-box captcha-input" placeholder="请输入验证码" />
+    <view>
+      <captcha-btn mobile="{{mobile}}" url="{{captchaUrl}}"/>
+    </view>
+  </view>
+</view>

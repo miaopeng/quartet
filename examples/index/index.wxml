@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="title">Quartet 小程序组件</view>
+  <view class="nav">
+    <navigator url="/captcha/index">captcha-btn</navigator>
+    <navigator url="/tab/index">tabs and tab</navigator>
+    <navigator url="/popup/index">popup</navigator>
+  </view>
+</view>

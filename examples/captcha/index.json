@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "captcha-btn": "/miniprogram_npm/quartet/captcha-btn/index"
+  }
+}

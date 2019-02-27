@@ -1,0 +1,18 @@
+.captcha-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 88rpx;
+  position: relative;
+  border: 2rpx solid #E3E3E3;
+  border-radius: 20rpx;
+  margin-bottom: 40rpx;
+  padding-right: 12rpx;
+}
+
+.captcha-input {
+  width: 65%;
+  border: 0;
+  padding-left: 16rpx;
+  font-size: 32rpx;
+}
