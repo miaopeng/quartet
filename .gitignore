@@ -11,3 +11,4 @@ miniprogram_npm
 .vscode
 
 # others
+.DS_Store
