@@ -1,1 +1,3 @@
-<view class="captcha-btn {{ disabled ? 'is-disabled': ''}}" bindtap="handleClick">{{label}}</view>
+<view class="theme-cls captcha-btn {{ disabled ? 'is-disabled': ''}}" bindtap="handleClick"
+  >{{label}}</view
+>

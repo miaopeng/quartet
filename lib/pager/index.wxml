@@ -1,0 +1,14 @@
+<scroll-view
+  scroll-y
+  lower-threshold="{{threshold}}"
+  style="height: 100%;width: 100%"
+  bindscrolltolower="onReachBottom"
+>
+  <slot></slot>
+  <view class="footer">
+    <view wx:if="{{ data.isLastPage }}" class="the-end">{{title}}</view>
+    <view wx:elif="{{ pulling }}">
+      <van-loading color="{{loadingColor}}" />
+    </view>
+  </view>
+</scroll-view>

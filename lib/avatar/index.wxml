@@ -1,0 +1,8 @@
+<block wx:if="{{url}}">
+  <image style="width: {{size}}; height: {{size}}" class="avatar" src="{{url}}" mode="aspectFill" />
+</block>
+<block wx:else>
+  <view style="width: {{size}}; height: {{size}};" class="avatar">
+    <open-data type="userAvatarUrl" />
+  </view>
+</block>

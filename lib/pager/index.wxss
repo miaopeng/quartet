@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* 分割线 */
+.the-end { display: flex; align-items: center; justify-content: center; font-size: 24rpx; font-weight: 200; position: relative; width: 100%; text-align: center; }
+
+.the-end:before, .the-end:after { content: ''; width: 36px; height: 1px; left: 0; top: 50%; border-bottom: 1px solid #aaa; }
+
+.the-end:before { margin-right: 20px; }
+
+.the-end:after { margin-left: 20px; }
+
+:host { width: 100%; }
+
+.footer { padding: 32rpx 0; text-align: center; }

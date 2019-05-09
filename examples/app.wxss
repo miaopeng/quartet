@@ -6,3 +6,12 @@
   margin: 30px;
   text-align: center;
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
