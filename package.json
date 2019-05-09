@@ -1,12 +1,12 @@
 {
   "name": "quartet",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "miniprogram": "lib",
   "repository": "ssh://git@flian.iask.in:10099/f2e/quartet.git",
   "author": "Peng Miao <mios@yeah.net>",
   "license": "MIT",
   "files": [
-    "lib"
+    "/lib"
   ],
   "scripts": {
     "dev": "gulp"
