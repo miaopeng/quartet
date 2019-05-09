@@ -1,0 +1,11 @@
+@import '../scss/loading';
+@import '../scss/the-end';
+
+:host {
+  width: 100%;
+}
+
+.footer {
+  padding: 16px 0;
+  text-align: center;
+}

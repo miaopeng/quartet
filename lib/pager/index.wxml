@@ -4,11 +4,13 @@
   style="height: 100%;width: 100%"
   bindscrolltolower="onReachBottom"
 >
-  <slot></slot>
+  <slot />
   <view class="footer">
-    <view wx:if="{{ data.isLastPage }}" class="the-end">{{title}}</view>
+    <view wx:if="{{ data.isLastPage }}" class="the-end">
+      {{ theend }}
+    </view>
     <view wx:elif="{{ pulling }}">
-      <van-loading color="{{loadingColor}}" />
+      <view class="icon-loading" />
     </view>
   </view>
-</scroll-view>
+</scroll-view>;

@@ -1,4 +1,4 @@
-@import '../../scss/variables';
+@import '../scss/variables';
 
 .captcha-btn {
   min-width: 200rpx;
@@ -6,7 +6,6 @@
   color: #fff;
   white-space: nowrap;
   font-size: 26rpx;
-  // background-color: #77a;
   background-color: $color-brand;
   flex: 1;
   padding: 0 32rpx;
